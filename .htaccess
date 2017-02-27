@@ -1,5 +1,0 @@
-RewriteEngine All
-
-ErrorDocument 404 /404.html
-
-Options All -Indexes
