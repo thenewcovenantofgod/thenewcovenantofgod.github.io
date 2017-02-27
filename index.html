@@ -1,0 +1,66 @@
+---
+layout: default
+title: Home
+quote: ...“ஆம், நான் விரைவில் வருகிறேன்”... - வெளி. 20:22
+---
+
+<header class="clean" style="height: 350px; background-image: url({{ site.cover }}); {% if site.parallax != true %}background-attachment: scroll;{% endif %}" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
+	{% include top.html %}
+	<a href="{{ site.url }}{{ site.baseurl }}">
+		<div id="home-title" class="site-icon-home" style="background-image: url({{ site.icon }});" data-stellar-ratio="0.5"></div>
+	</a>
+</header>
+<div id="middle">
+<div id="post-list">
+	{% for post in paginator.posts %}
+		<div>
+			<span class="post-date">
+				<span class="fa fa-calendar"></span>
+				{% assign m = post.date | date: "%-m" %}
+				{{ post.date | date: "%-d" }}
+				{% case m %}
+	  				{% when '1' %}சனவரி
+	  				{% when '2' %}பிப்ரவரி
+	  				{% when '3' %}மார்ச்
+	  				{% when '4' %}ஏப்ரல்
+	  				{% when '5' %}மே
+	  				{% when '6' %}சூன்
+	  				{% when '7' %}சூலை
+	  				{% when '8' %}ஆகசுட்
+	  				{% when '9' %}செப்டம்பர்
+	  				{% when '10' %}அக்டோபர்
+	  				{% when '11' %}நவம்பர்
+	  				{% when '12' %}டிசம்பர்
+				{% endcase %}
+				{{ post.date | date: "%Y" }} &middot; <span class="fa fa-comments"></span> <a href="{{site.baseurl}}{{site.url}}{{post.url}}#disqus_thread"></a>
+			</span>
+			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+			<p class="post-description">{% if post.quote %}{{ post.quote }}{% else %}{{ post.content | strip_html | truncatewords: 50 }}{% endif %}</p>
+			<span class="post-info">
+				<ul class="tags">
+					{% for tag in post.tags %}
+						<li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+					{% endfor %}
+				</ul>
+			</span>
+		</div>
+		<br>
+	{% endfor %}
+</div>
+<nav class="pagination" role="navigation">
+	{% if paginator.next_page %}
+		<a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; பழைய பதிவுகள்</a>
+	{% endif %}
+	<span class="page-number">பக்கம் &middot; {{ paginator.page }} / {{ paginator.total_pages }}</span>
+	{% if paginator.previous_page %}
+		{% if paginator.page == 2 %}
+			<a class="older-posts" href="{{ site.baseurl }}/">புதிய பதிவுகள் &rarr;</a>
+		{% else %}
+			<a class="older-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">புதிய பதிவுகள் &rarr;</a>
+		{% endif %}
+	{% endif %}
+</nav>
+</div>
+<footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; bottom: 0; z-index: 4; position: absolute; height: 60px; {% if site.parallax != true %}background-attachment: scroll;{% endif %}">
+	<p class="copyright">காப்புரிமம் <span class="fa fa-copyright"></span> {{ site.time | date: "%Y" }} &middot; <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a> &middot; <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a></p>
+</footer>

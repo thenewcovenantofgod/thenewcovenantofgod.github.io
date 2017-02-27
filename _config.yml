@@ -1,0 +1,79 @@
+# Dependencies
+markdown:	kramdown
+# Permalinks
+permalink:	/:title
+
+# Setup
+title:            புதிய உடன்படிக்கை
+tagline:          'வலைப்பதிவு'
+description:      '...“ஆம், நான் விரைவில் வருகிறேன்”... - வெளி. 22:20'
+url:              https://thenewcovenantofgod.github.io/
+baseurl:
+commentsystem:    disqus
+disqus:           thenewcovenantofgod
+
+author:
+  name:           பயனற்ற பணியாள்
+  url:            https://thenewcovenantofgod.github.io/about
+
+paginate:         7
+
+# Custom vars
+icon:             /assets/images/icon.png
+cover:            /assets/images/rising-sun.jpg
+
+social:
+  # - icon:         twitter
+    # url:          https://twitter.com/iancamporez
+    # desc:         Follow me on twitter
+
+  # - icon:         github
+    # url:          https://github.com/camporez
+    # desc:         Fork me on github
+
+  # - icon:         googleplus-alt
+    # url:          https://google.com/+IanCamporezBrunelli
+    # desc:         Add me on google+
+
+  - icon:         rss
+    url:          https://thenewcovenantofgod.github.io/atom.xml
+    desc:         பதிவு செய்க
+
+menu:
+  - title:        முகப்பு
+    url:          /
+    icon:         fa-home
+
+  - title:        நோக்கம்
+    url:          /about
+    icon:         fa-info
+
+  - title:        குறிச்சொற்கள்
+    url:          /tags
+    icon:         fa-tags
+
+copyright:
+  author:         புதிய உடன்படிக்கை வலைப்பதிவு
+  url:            https://thenewcovenantofgod.github.io/
+  type_title:     அனைத்து உரிமைகளும் பதிவு செய்யப்பட்டு உள்ளன
+  type_url:       https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+parallax:         false
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics:
+
+# Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
+theme_color:       7E9576
+
+# Gems
+gems:
+    - jekyll-paginate
+    - jekyll-seo-tag
+    - jekyll-feed
+
+# Includes
+include: ['.htaccess']
+
+# Excludes
+# exclude: ["Gemfile", "Gemfile.lock"]

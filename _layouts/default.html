@@ -1,0 +1,20 @@
+<html>
+	{% include head.html %}
+	<body>
+		{{ content }}
+		<script>
+		var width = $(window).width()
+		if ( width > 899 )
+		$( function(){
+			$.stellar({
+				responsive: true,
+			verticalScrolling: true,
+			horizontalOffset: 0,
+			verticalOffset: 0,
+			positionProperty: 'transform',
+			});
+		});
+		</script>
+		<script id="dsq-count-scr" src="//thenewcovenantofgod.disqus.com/count.js" async></script>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+---
+layout: fullscreen
+title: "404"
+image:
+    url: /assets/images/404.jpg
+---
+
+<div id="post-info">
+	<p id="404" style="text-align: center; color: #000; opacity: .75; font-weight: bold;">404</p>
+	<h2 style="text-align: center; color: #000;">தாங்கள் தேடிய பகுதி எங்கள் வலைப்பதிவில் காணவில்லை.</h2>
+</div>
+<div id="nav-icon" style="bottom: 50px;">
+	<a href="{{ site.url }}{{ site.baseurl }}"><span class="fa fa-home" style="color: #000;"></span></a>
+</div>
+<p class="copyright">காப்புரிமம் <span class="fa fa-copyright"></span> {{ site.time | date: "%Y" }} &middot; <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a> &middot; <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a></p>
+<script src="{{ site.baseurl }}/assets/js/jquery.fittext.js"></script>
+<script type="text/javascript">jQuery("#404").fitText(0.18, { maxFontSize: '350px' })</script>
