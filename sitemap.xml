@@ -3,8 +3,21 @@
   
     
     <url>
+      <loc>https://thenewcovenantofgod.github.io/verse-of-the-day/vod-081117</loc>
+      <lastmod>2017-11-09 07:54:17 +0530</lastmod>
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>https://thenewcovenantofgod.github.io/verse-of-the-day/vod-071117</loc>
-      <lastmod>2017-11-07 20:17:08 +0530</lastmod>
+      <lastmod>2017-11-09 07:54:43 +0530</lastmod>
       
         <changefreq>monthly</changefreq>
       
@@ -3894,6 +3907,19 @@
     
     <url>
       <loc>https://thenewcovenantofgod.github.io/page37/</loc>
+      <lastmod></lastmod>
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://thenewcovenantofgod.github.io/page38/</loc>
       <lastmod></lastmod>
       
         <changefreq>monthly</changefreq>
