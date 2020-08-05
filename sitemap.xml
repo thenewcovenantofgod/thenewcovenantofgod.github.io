@@ -3,8 +3,21 @@
   
     
     <url>
+      <loc>https://thenewcovenantofgod.github.io/verse-of-the-day/vod-050820</loc>
+      <lastmod>2020-08-05 06:22:09 +0530</lastmod>
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>https://thenewcovenantofgod.github.io/verse-of-the-day/vod-040820</loc>
-      <lastmod>2020-08-04 06:14:05 +0530</lastmod>
+      <lastmod>2020-08-05 06:14:56 +0530</lastmod>
       
         <changefreq>monthly</changefreq>
       
@@ -18766,6 +18779,19 @@
     
     <url>
       <loc>https://thenewcovenantofgod.github.io/page180/</loc>
+      <lastmod>2017-04-19 08:36:13 +0530</lastmod>
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://thenewcovenantofgod.github.io/page181/</loc>
       <lastmod>2017-04-19 08:36:13 +0530</lastmod>
       
         <changefreq>monthly</changefreq>
