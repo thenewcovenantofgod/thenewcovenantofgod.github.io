@@ -4,7 +4,7 @@
  <title>புதிய உடன்படிக்கை</title>
  <link href="https://thenewcovenantofgod.github.io/atom.xml" rel="self"/>
  <link href="https://thenewcovenantofgod.github.io/"/>
- <updated>2021-05-12T07:21:02+05:30</updated>
+ <updated>2021-05-13T07:39:01+05:30</updated>
  <id>https://thenewcovenantofgod.github.io/</id>
  <author>
    <name>பயனற்ற பணியாள்</name>
@@ -14,8 +14,22 @@
  
  <entry>
    <title>இன்றைய வசனம்</title>
+   <link href="https://thenewcovenantofgod.github.io/verse-of-the-day/vod-130521"/>
+   <updated>2021-05-13T00:00:00+05:30</updated>
+   <id>https://thenewcovenantofgod.github.io/verse-of-the-day/vod-130521</id>
+   <content type="html">&lt;h1 id=&quot;என்-அன்பே-நீ-திரட்சாவைப்போல்-அழகுள்ளவள்-எருசலேமைப்போல்-எழில்-நிறைந்தவள்&quot;&gt;என் அன்பே. நீ திரட்சாவைப்போல் அழகுள்ளவள்; எருசலேமைப்போல் எழில் நிறைந்தவள்&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p style=&quot;text-align: justify; text-indent: 40px;&quot;&gt;&lt;sup&gt;4&lt;/sup&gt;என் அன்பே. நீ திரட்சாவைப்போல் அழகுள்ளவள்; எருசலேமைப்போல் எழில் நிறைந்தவள்; போரணிபோல் வியப்பார்வம் ஊட்டுகின்றாய்! &lt;sup&gt;5&lt;/sup&gt;என்னிடமிருந்து உன் கண்களைத் திருப்பிக்கொள்; அவை என்னை மயக்குகின்றன; கிலயாதிலிருந்து இறங்கிவரும் வெள்ளாட்டு மந்தை போன்றது உன் கூந்தல். &lt;sup&gt;6&lt;/sup&gt;உன் பற்களோ, குளித்துக்கரையேறும் பெண் ஆடுகளின் மந்தைபோல்வன; அவையாவும் இரட்டைக்குட்டி போட்டவை; அவற்றுள் ஒன்றேனும் மலடு இல்லை. &lt;sup&gt;7&lt;/sup&gt;முகத்திரையின் பின்னிருக்கும் உன் கன்னங்கள் பிளந்த மாதுளம் பழத்திற்கு நிகரானவை.&lt;/p&gt;
+  &lt;p style=&quot;text-align: right;&quot;&gt;- இனிமைமிகு பாடல் 6:4-7&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>இன்றைய வசனம்</title>
    <link href="https://thenewcovenantofgod.github.io/verse-of-the-day/vod-120521"/>
-   <updated>2021-05-11T00:00:00+05:30</updated>
+   <updated>2021-05-12T00:00:00+05:30</updated>
    <id>https://thenewcovenantofgod.github.io/verse-of-the-day/vod-120521</id>
    <content type="html">&lt;h1 id=&quot;மாட்சிப்படுத்தினேன்-மீண்டும்-மாட்சிப்படுத்துவேன்&quot;&gt;“மாட்சிப்படுத்தினேன்; மீண்டும் மாட்சிப்படுத்துவேன்”&lt;/h1&gt;
 
